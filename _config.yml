@@ -1,0 +1,21 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            'bopinto'
+tagline:          'bopinto website'
+description:      'The canvas for some of my thoughts'
+url:              https://bopinto.github.io
+baseurl:          /
+
+author:
+  name:           'Bernardo Oliveira Pinto'
+  twitter:        https://twitter.com/bopinto
+  linkedin:       https://www.linkedin.com/in/bopinto/
+  github:         https://www.github.com/bopinto
+
+paginate:         5
