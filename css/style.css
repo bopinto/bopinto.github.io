@@ -105,10 +105,10 @@ html {
 body {
   height: 100%;
   background-color: #ffffff;
-  background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
-  background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
-  background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
-  background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
+  background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(71, 70, 70, 0.5) 5%, rgba(192, 194, 194, 0.35)), url("../../images/bg.jpg");
+  background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(71, 70, 70, 0.5) 5%, rgba(192, 194, 194, 0.35)), url("../../images/bg.jpg");
+  background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(71, 70, 70, 0.5) 5%, rgba(192, 194, 194, 0.35)), url("../../images/bg.jpg");
+  background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(71, 70, 70, 0.5) 5%, rgba(192, 194, 194, 0.35)), url("../../images/bg.jpg");
   background-repeat: repeat, no-repeat, no-repeat;
   background-size: 100px 100px, cover, cover;
   background-position: top left, center center, bottom center;
@@ -125,10 +125,10 @@ body:after {
   opacity: 0;
   z-index: 1;
   background-color: #ffffff;
-  background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
-  background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
-  background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
-  background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
+  background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(71, 70, 70, 0.5) 5%, rgba(192, 194, 194, 0.35));
+  background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(71, 70, 70, 0.5) 5%, rgba(192, 194, 194, 0.35));
+  background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(71, 70, 70, 0.5) 5%, rgba(192, 194, 194, 0.35));
+  background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(71, 70, 70, 0.5) 5%, rgba(192, 194, 194, 0.35));
   background-repeat: repeat, no-repeat;
   background-size: 100px 100px, cover;
   background-position: top left, center center;
@@ -178,7 +178,7 @@ a:before {
   transition: color 0.2s ease, text-shadow 0.2s ease;
 }
 a:hover {
-  color: #ff7496;
+  color: #a7072f;
 }
 
 strong, b {
@@ -352,7 +352,7 @@ input[type=email]:focus,
 input[type=tel]:focus,
 select:focus,
 textarea:focus {
-  border-color: #ff7496;
+  border-color: #a7072f;
 }
 
 select {
@@ -436,12 +436,12 @@ input[type=radio] + label:before {
 }
 input[type=checkbox]:checked + label:before,
 input[type=radio]:checked + label:before {
-  color: #ff7496;
+  color: #a7072f;
   content: "";
 }
 input[type=checkbox]:focus + label:before,
 input[type=radio]:focus + label:before {
-  border-color: #ff7496;
+  border-color: #a7072f;
 }
 
 input[type=checkbox] + label:before {
@@ -673,7 +673,7 @@ ul.icons li a:before {
   text-shadow: 1.25px 0px 0px #c8cccf, -1.25px 0px 0px #c8cccf, 0px 1.25px 0px #c8cccf, 0px -1.25px 0px #c8cccf;
 }
 ul.icons li a:hover:before {
-  text-shadow: 1.25px 0px 0px #ff7496, -1.25px 0px 0px #ff7496, 0px 1.25px 0px #ff7496, 0px -1.25px 0px #ff7496;
+  text-shadow: 1.25px 0px 0px #a7072f, -1.25px 0px 0px #a7072f, 0px 1.25px 0px #a7072f, 0px -1.25px 0px #a7072f;
 }
 ul.icons li a:before {
   position: absolute;
@@ -687,7 +687,7 @@ ul.icons li a:before {
   text-indent: 0;
 }
 ul.icons li a:hover {
-  border-color: #ff7496;
+  border-color: #a7072f;
 }
 @media screen and (max-width: 480px) {
   ul.icons li a:before {
@@ -727,8 +727,8 @@ input[type=reset]:hover,
 input[type=button]:hover,
 button:hover,
 .button:hover {
-  border-color: #ff7496;
-  color: #ff7496 !important;
+  border-color: #a7072f;
+  color: #a7072f !important;
 }
 input[type=submit].icon,
 input[type=reset].icon,
