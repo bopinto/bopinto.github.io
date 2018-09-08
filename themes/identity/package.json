@@ -1,0 +1,11 @@
+{
+  "name": "hexo-identity-theme",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "sass": "^1.13.2"
+  },
+  "scripts": {
+    "compile-css": "./node_modules/.bin/sass source/scss/main.scss source/css/style.css"
+  }
+}

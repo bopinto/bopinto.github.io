@@ -1,0 +1,40 @@
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Main -->
+		<section id="main">
+			<header>
+				<%- page.content %>
+			</header>
+			<footer>
+				<ul class="icons">
+					<li><a href="#" class="fa-twitter" title="Twitter">Twitter</a></li>
+					<li><a href="#" class="fa-linkedin" title="Linkedin">Linkedin</a></li>
+					<li><a href="#" class="fa-github" title="Github">Github</a></li>
+				</ul>
+			</footer>
+		</section>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<ul class="copyright">
+				<li>&copy; Bernardo Oliveira Pinto</li>
+        <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        <li>Photo by Chris Ried on Unsplash</li>
+			</ul>
+		</footer>
+
+	</div>
+
+	<!-- Scripts -->
+	<script>
+		if ('addEventListener' in window) {
+			window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
+			document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+		}
+	</script>
+
+</body>
+</html>
