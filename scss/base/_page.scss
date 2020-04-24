@@ -83,40 +83,14 @@ body {
   }
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen {
   body {
     @include vendor(
       "background-image",
       (
         'url("images/overlay.png")',
         "linear-gradient(60deg, #{transparentize(_palette(accent1), 0.5)} 5%, #{transparentize(_palette(accent2), 0.65)})",
-        'url("../images/bg-m.jpg")'
-      )
-    );
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  body {
-    @include vendor(
-      "background-image",
-      (
-        'url("images/overlay.png")',
-        "linear-gradient(60deg, #{transparentize(_palette(accent1), 0.5)} 5%, #{transparentize(_palette(accent2), 0.65)})",
-        'url("../images/bg-m.jpg")'
-      )
-    );
-  }
-}
-
-@media only screen and (max-width: 736px) {
-  body {
-    @include vendor(
-      "background-image",
-      (
-        'url("images/overlay.png")',
-        "linear-gradient(60deg, #{transparentize(_palette(accent1), 0.5)} 5%, #{transparentize(_palette(accent2), 0.65)})",
-        'url("../images/bg-m.jpg")'
+        'url("../images/bg-l.jpg")'
       )
     );
   }
@@ -130,32 +104,6 @@ body {
         'url("images/overlay.png")',
         "linear-gradient(60deg, #{transparentize(_palette(accent1), 0.5)} 5%, #{transparentize(_palette(accent2), 0.65)})",
         'url("../images/bg-m.jpg")'
-      )
-    );
-  }
-}
-
-@media only screen and (max-width: 1280px) {
-  body {
-    @include vendor(
-      "background-image",
-      (
-        'url("images/overlay.png")',
-        "linear-gradient(60deg, #{transparentize(_palette(accent1), 0.5)} 5%, #{transparentize(_palette(accent2), 0.65)})",
-        'url("../images/bg-l.jpg")'
-      )
-    );
-  }
-}
-
-@media only screen and (min-width: 1281px) {
-  body {
-    @include vendor(
-      "background-image",
-      (
-        'url("images/overlay.png")',
-        "linear-gradient(60deg, #{transparentize(_palette(accent1), 0.5)} 5%, #{transparentize(_palette(accent2), 0.65)})",
-        'url("../images/bg-l.jpg")'
       )
     );
   }
