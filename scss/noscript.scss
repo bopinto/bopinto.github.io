@@ -1,8 +1,8 @@
-@import 'libs/vars';
-@import 'libs/functions';
-@import 'libs/mixins';
-@import 'libs/vendor';
-@import 'libs/breakpoints';
+@import "libs/vars";
+@import "libs/functions";
+@import "libs/mixins";
+@import "libs/vendor";
+@import "libs/breakpoints";
 
 /*
 	Identity by HTML5 UP
@@ -12,15 +12,15 @@
 
 /* Basic */
 
-	body {
-		&:after {
-			display: none;
-		}
-	}
+body {
+  &:after {
+    display: none;
+  }
+}
 
 /* Main */
 
-	#main {
-		@include vendor('transform', 'none !important');
-		opacity: 1 !important;
-	}
+#main {
+  @include vendor("transform", "none !important");
+  opacity: 1 !important;
+}
