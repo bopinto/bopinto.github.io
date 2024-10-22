@@ -1,14 +1,1 @@
-{
-	"version": 3,
-	"file": "noscript.css",
-	"sources": [
-		"../scss/noscript.scss",
-		"../scss/libs/_vars.scss",
-		"../scss/libs/_functions.scss",
-		"../scss/libs/_mixins.scss",
-		"../scss/libs/_vendor.scss",
-		"../scss/libs/_breakpoints.scss"
-	],
-	"names": [],
-	"mappings": "AAMA;;;;EAIE;AAEF,WAAW;AAEX,AACE,IADE,AACD,MAAM,CAAC;EACN,OAAO,EAAE,IAAI,GACd;;AAGH,UAAU;AAEV,AAAA,KAAK,CAAC;EIsRA,cAAsB,EAAC,eAAC;EAAxB,iBAAsB,EAAC,eAAC;EAAxB,aAAsB,EAAC,eAAC;EAAxB,SAAsB,EAAC,eAAC;EJpR5B,OAAO,EAAE,YAAY,GACtB"
-}
+{"version":3,"sourceRoot":"","sources":["file:///Users/nb22625/Documents/workspace/bopinto.github.io/scss/noscript.scss","file:///Users/nb22625/Documents/workspace/bopinto.github.io/scss/libs/_vendor.scss"],"names":[],"mappings":"AAMA;AAAA;AAAA;AAAA;AAAA;AAMA;AAGE;EACE;;;AAIJ;AAEA;ECsRM;EAAA;EAAA;EAAA;EDpRJ","file":"noscript.css"}
