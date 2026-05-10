@@ -418,14 +418,6 @@ input[type=radio] {
 input[type=checkbox] + label,
 input[type=radio] + label {
   text-decoration: none;
-  color: #414f57;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 1em;
-  font-weight: 300;
-  padding-left: 2.4em;
-  padding-right: 0.75em;
-  position: relative;
 }
 input[type=checkbox] + label:before,
 input[type=radio] + label:before {
@@ -439,6 +431,17 @@ input[type=radio] + label:before {
   text-transform: none !important;
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
+}
+input[type=checkbox] + label,
+input[type=radio] + label {
+  color: #414f57;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: 300;
+  padding-left: 2.4em;
+  padding-right: 0.75em;
+  position: relative;
 }
 input[type=checkbox] + label:before,
 input[type=radio] + label:before {
@@ -496,8 +499,6 @@ input[type=radio] + label:before {
 /* Icon */
 .icon {
   text-decoration: none;
-  position: relative;
-  border-bottom: none;
 }
 .icon:before {
   -moz-osx-font-smoothing: grayscale;
@@ -510,6 +511,10 @@ input[type=radio] + label:before {
   text-transform: none !important;
   font-family: "Font Awesome 5 Free";
   font-weight: 400;
+}
+.icon {
+  position: relative;
+  border-bottom: none;
 }
 .icon > .label {
   display: none;
@@ -682,17 +687,6 @@ ul.icons li {
 }
 ul.icons li a {
   text-decoration: none;
-  position: relative;
-  display: block;
-  width: 3.75em;
-  height: 3.75em;
-  border-radius: 100%;
-  border: solid 1px #c8cccf;
-  line-height: 3.75em;
-  overflow: hidden;
-  text-align: center;
-  text-indent: 3.75em;
-  white-space: nowrap;
 }
 ul.icons li a:before {
   -moz-osx-font-smoothing: grayscale;
@@ -712,6 +706,19 @@ ul.icons li a:before {
 }
 ul.icons li a:hover:before {
   text-shadow: 1.25px 0px 0px #ff7496, -1.25px 0px 0px #ff7496, 0px 1.25px 0px #ff7496, 0px -1.25px 0px #ff7496;
+}
+ul.icons li a {
+  position: relative;
+  display: block;
+  width: 3.75em;
+  height: 3.75em;
+  border-radius: 100%;
+  border: solid 1px #c8cccf;
+  line-height: 3.75em;
+  overflow: hidden;
+  text-align: center;
+  text-indent: 3.75em;
+  white-space: nowrap;
 }
 ul.icons li a:before {
   position: absolute;
